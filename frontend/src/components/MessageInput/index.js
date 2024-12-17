@@ -33,7 +33,7 @@ const Mp3Recorder = new MicRecorder({ bitRate: 128 });
 
 const useStyles = makeStyles(theme => ({
 	mainWrapper: {
-		backgroundColor: theme.palette.bordabox, //DARK MODE Whaticket Plus DESIGN//
+		backgroundColor: theme.palette.bordabox, //DARK MODE Whaticket Plus//
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
@@ -238,6 +238,8 @@ const MessageInput = ({ ticketStatus }) => {
 		setLoading(false);
 		setMedias([]);
 	};
+
+
 
 	const handleSendMessage = async () => {
 		if (inputMessage.trim() === "") return;

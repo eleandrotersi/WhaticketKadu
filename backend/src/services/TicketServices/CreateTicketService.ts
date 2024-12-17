@@ -6,6 +6,7 @@ import ShowContactService from "../ContactServices/ShowContactService";
 import { getIO } from "../../libs/socket";
 import GetDefaultWhatsAppByUser from "../../helpers/GetDefaultWhatsAppByUser";
 import ShowWhatsAppService from "../WhatsappService/ShowWhatsAppService";
+import FindOrCreateATicketTrakingService from "./FindOrCreateATicketTrakingService";
 
 interface Request {
   contactId: number;
@@ -68,6 +69,13 @@ const CreateTicketService = async ({
   if (!ticket) {
     throw new AppError("ERR_CREATING_TICKET");
   }
+  
+    await FindOrCreateATicketTrakingService({
+    ticketId: ticket.id,
+    companyId: ticket.companyId,
+    whatsappId: ticket.whatsappId,
+    userId: ticket.userId
+  });
 
   const io = getIO();
 

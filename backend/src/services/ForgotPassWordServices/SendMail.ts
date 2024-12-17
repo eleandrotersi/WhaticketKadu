@@ -122,7 +122,7 @@ a[x-apple-data-detectors] {
                   <td align="center" valign="top" style="padding:0;Margin:0;width:540px">
                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;font-size:0px"><img src="https://vip.whaticketplus.com/wp-content/uploads/2023/04/Clube-de-Assinantes-Whaticket Plus-600-x-200-px-2-300x100.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="205"></td>
+                      <td align="center" style="padding:0;Margin:0;font-size:0px"><img src="https://google.com" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="205"></td>
                      </tr>
                    </table></td>
                  </tr>

@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
 	chatContainer: {
 		flex: 1,
 		// backgroundColor: "#eee",
-		padding: theme.spacing(1), //Aqui ele ajusta espaço na tela de ticket
+		padding: theme.spacing(0), //Aqui ele ajusta espaço na tela de ticket
 		height: `calc(100% - 48px)`,
 		overflowY: "hidden",
 	},
@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
 		flexDirection: "column",
 	},
 	welcomeMsg: {
-		backgroundColor: theme.palette.boxticket, //DARK MODE Whaticket Plus DESIGN//
+		backgroundColor: theme.palette.boxticket, //DARK MODE Whaticket Plus//
 		display: "flex",
 		justifyContent: "space-evenly",
 		alignItems: "center",

@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
         alignItems: "center",
         justifyContent: "center",
         height: "100%",
-		backgroundColor: theme.palette.boxticket, //DARK MODE Whaticket Plus DESIGN//
+		backgroundColor: theme.palette.boxticket, //DARK MODE Whaticket Plus//
     },
     placeholderItem: {
     }
@@ -67,11 +67,11 @@ const TicketAdvanced = (props) => {
 	const renderPlaceholder = () => {
 		return <Box className={classes.placeholderContainer}>
              {/*<div className={classes.placeholderItem}>{i18n.t("chat.noTicketMessage")}</div>*/}
-			//Whaticket Plus DESIGN LOGO//
+			//Whaticket Plus LOGO//
 			<div>
 			<center><img style={{ margin: "0 auto", width: "80%" }} src={logoWithRandom} alt={`${process.env.REACT_APP_NAME_SYSTEM}`} /></center>
 			</div>
-			//Whaticket Plus DESIGN LOGO//
+			//Whaticket Plus LOGO//
 			<br />
             <Button onClick={() => setOption(1)} variant="contained" color="primary">
                 Selecionar Ticket
