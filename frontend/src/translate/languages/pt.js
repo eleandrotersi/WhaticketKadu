@@ -301,9 +301,13 @@ const messages = {
           add: "Adicionar fila",
           edit: "Editar fila",
         },
-		confirmationModal: {
-		  "deleteTitle": "Excluir",
-		},
+	toasts: {
+          deleted: "Registro excluído",
+        },      
+        confirmationModal: {
+          deleteTitle: "Excluir",
+          deleteMessage: "Esta ação não pode ser revertida.",
+        },
         form: {
           name: "Nome",
           color: "Cor",
@@ -500,6 +504,7 @@ const messages = {
           schedules: "Agendamentos",
           campaigns: "Campanhas",
           annoucements: "Informativos",
+		  logplw:"Atualizações",
           chats: "Chat Interno",
           financeiro: "Financeiro",
           files: "Lista de arquivos",
@@ -1048,6 +1053,7 @@ const messages = {
           "Esta cor já está em uso, escolha outra.",
         ERR_WAPP_GREETING_REQUIRED:
           "A mensagem de saudação é obrigatório quando há mais de uma fila.",
+        ERR_CHECK_NUMBER: "Número inválido. Verifique o número e tente novamente.",
       },
     },
   },

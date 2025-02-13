@@ -12,8 +12,8 @@ import SendWhatsAppMessage from "../WbotServices/SendWhatsAppMessage";
 import FindOrCreateATicketTrakingService from "./FindOrCreateATicketTrakingService";
 import GetTicketWbot from "../../helpers/GetTicketWbot";
 import { verifyMessage } from "../WbotServices/wbotMessageListener";
-import ListSettingsServiceOne from "../SettingServices/ListSettingsServiceOne"; //NOVO Whaticket Plus//
-import ShowUserService from "../UserServices/ShowUserService"; //NOVO Whaticket Plus//
+import ListSettingsServiceOne from "../SettingServices/ListSettingsServiceOne"; //NOVO Whaticket Plus DESIGN//
+import ShowUserService from "../UserServices/ShowUserService"; //NOVO Whaticket Plus DESIGN//
 import { isNil } from "lodash";
 import Whatsapp from "../../models/Whatsapp";
 import { Op } from "sequelize";
