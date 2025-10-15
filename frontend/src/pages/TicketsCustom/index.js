@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
 		flexDirection: "column",
 	},
 	welcomeMsg: {
-		backgroundColor: theme.palette.boxticket, //DARK MODE Whaticket Plus DESIGN//
+		backgroundColor: theme.palette.boxticket, //DARK MODE Whaticket DESIGN//
 		display: "flex",
 		justifyContent: "space-evenly",
 		alignItems: "center",

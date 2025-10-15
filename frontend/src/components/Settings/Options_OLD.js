@@ -33,12 +33,12 @@ const useStyles = makeStyles((theme) => ({
     height: 240,
   },
   tab: {
-    backgroundColor: theme.palette.options,  //DARK MODE Whaticket Plus DESIGN//
+    backgroundColor: theme.palette.options,  //DARK MODE Whaticket DESIGN//
     borderRadius: 4,
     width: "100%",
     "& .MuiTab-wrapper": {
       color: theme.palette.fontecor,
-    },   //DARK MODE Whaticket Plus DESIGN//
+    },   //DARK MODE Whaticket DESIGN//
     "& .MuiTabs-flexContainer": {
       justifyContent: "center"
     }
@@ -178,12 +178,12 @@ export default function Options(props) {
         setallowregister(allowregister.value);
       }
       
-	  {/*Whaticket Plus DESIGN SAUDAÇÃO*/}
+	  {/*Whaticket DESIGN SAUDAÇÃO*/}
       const SendGreetingAccepted = settings.find((s) => s.key === "sendGreetingAccepted");
       if (SendGreetingAccepted) {
         setSendGreetingAccepted(SendGreetingAccepted.value);
       }	 
-	  {/*Whaticket Plus DESIGN SAUDAÇÃO*/}	 
+	  {/*Whaticket DESIGN SAUDAÇÃO*/}	 
 	  
 	  {/*TRANSFERIR TICKET*/}	
 	  const SettingsTransfTicket = settings.find((s) => s.key === "sendMsgTransfTicket");

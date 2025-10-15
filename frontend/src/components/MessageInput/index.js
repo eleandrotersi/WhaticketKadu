@@ -34,7 +34,7 @@ const Mp3Recorder = new MicRecorder({ bitRate: 128 });
 
 const useStyles = makeStyles(theme => ({
 	mainWrapper: {
-		backgroundColor: theme.palette.bordabox, //DARK MODE Whaticket Plus DESIGN//
+		backgroundColor: theme.palette.bordabox, //DARK MODE Whaticket DESIGN//
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
